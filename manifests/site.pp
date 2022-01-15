@@ -1,4 +1,4 @@
-node default {
+node 'default' {
   file { '/root/READ.me':
     ensure => file,
     content => 'This is a readme',
